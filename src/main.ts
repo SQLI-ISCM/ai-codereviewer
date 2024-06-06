@@ -86,6 +86,9 @@ function createPrompt(file: File, chunk: Chunk, prDetails: PRDetails): string {
 - Write the comment in GitHub Markdown format.
 - Use the given description only for the overall context and only comment the code.
 - IMPORTANT: NEVER suggest adding comments to the code.
+- IMPORTANT : It's next JS project for an E-commerce Accelerator. Code must readable, well refactored and easilyy extensioble.
+- IMPORTANT : The backend calls should be done in GraphQL format only.
+- IMPORTANY : Dependecies need to be up to date. So mention it if there is new update.
 
 Review the following code diff in the file "${
     file.to
